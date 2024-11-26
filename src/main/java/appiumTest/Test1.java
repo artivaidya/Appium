@@ -31,7 +31,7 @@ public class Test1 {
 		caps.setCapability("deviceName", "emulator-5554"); // Use your emulator/device ID
 		caps.setCapability("browserName", "Chrome");//browser name
 		
-		caps.setCapability("automationName", "UiAutomator2");
+		caps.setCapability("automationName", "UiAutomator2");//automation name
 		
 		driver=new AndroidDriver(new URL(appiumServerUrl),caps);
 		
